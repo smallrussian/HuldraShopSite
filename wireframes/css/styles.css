@@ -56,6 +56,11 @@ footer {bottom: 100; width: 100%; height: 30px; background: rgb(200,200,200); pa
 }
 #carousel {padding-top: 10px;}
 
+#workHeading {
+	padding-left: 50px;
+}
+#workColumn {background: rgb(220,220,220); margin: 0 auto;}
+
 @media (max-width: 768px) {
 	.div-hero section {
 		padding-left: 0px;
