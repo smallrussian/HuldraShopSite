@@ -7,7 +7,7 @@ body { margin: 0; font-family: Verdana, sans-serif; color: rgb(100,100,100); }
 
 /*STRUCTURE*/
 
-.hus-header { position:fixed; top: 0; width: 100%; padding: 70px 0; z-index: 5; background-color:#FFF ;transition-delay: 0s; transition-duration: 0.4s; transition-property: all; transition-timing-function: ease; }
+.hus-header { position:fixed; top: 0; width: 100%; padding: 60px 0; z-index: 5; background-color:#FFF ;transition-delay: 0s; transition-duration: 0.4s; transition-property: all; transition-timing-function: ease; }
 .hus-fixed-header {padding: 20px 0; box-shadow: 0px 0px 20px rgba(0,0,0,0.25);}
 .inner-header {display: flex; justify-content: space-between; align-items: center;}
 	.logo {text-decoration: none; color: black; font-size: 24px ; display: flex;}
@@ -48,7 +48,13 @@ section.mission { width: 100%; height: auto; background: rgb(220,220,220); margi
 	
 
 footer {bottom: 100; width: 100%; height: 30px; background: rgb(200,200,200); padding: 5px 0; text-align: center; }
-
+.carousel-inner {
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
+}
+#carousel {padding-top: 10px;}
 
 @media (max-width: 768px) {
 	.div-hero section {
