@@ -7,9 +7,12 @@ body { margin: 0; font-family: Verdana, sans-serif; color: rgb(100,100,100); }
 
 /*STRUCTURE*/
 
-header { width: 100%; background: rgb(100,100,100); padding: 30px 0; margin-bottom: 5px }
+.hus-header { position:fixed; top: 0; width: 100%; padding: 70px 0; z-index: 5; background-color:#FFF ;transition-delay: 0s; transition-duration: 0.4s; transition-property: all; transition-timing-function: ease; }
+.hus-fixed-header {padding: 20px 0; box-shadow: 0px 0px 20px rgba(0,0,0,0.25);}
 .inner-header {display: flex; justify-content: space-between; align-items: center;}
-	#logo { width: 200px; height: 60px; background: rgb(200,200,200);  }
+	#logo
+	#logo.span
+	span{ background: rgb(200,200,200);  }
 	.navbar{ display: flex; align-items: center; list-style: none; flex-wrap: wrap; float: right;} 
 	nav li {margin: 0 10px; display: inline; }
 	/* nav li { display: inline; margin-right: 20px; font-weight: bold; font-size: 18px; }
