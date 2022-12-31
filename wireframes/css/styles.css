@@ -41,7 +41,9 @@ body { margin: 0; font-family: Verdana, sans-serif; color: rgb(100,100,100); }
 	section.hero h1 { font-size: 30px; margin-bottom: -10px; }
 	section.hero p { margin-bottom: 60px; } */
 	/* section.hero .button { width: 225px; height: 40px; padding-top: 25px; font-size: 20px; margin: 0 auto; } */
-
+#div-form{
+	height: 680x;
+	}
 section.mission { width: 100%; height: auto; background: rgb(220,220,220); margin: 0 auto 5px; padding: 20px 0; }
 	section.mission h2 { font-size: 2em; text-align: center; font-weight: bold; }
 	section.mission h4 { font-size: 1.6em; font-weight: normal; text-align: center; margin-bottom: 40px;}
@@ -70,6 +72,9 @@ footer {bottom: 100; width: 100%; height: 30px; background: rgb(200,200,200); pa
 }
 #workColumn { margin: 0 auto; margin-bottom: 10px;}
 
+.div-form{
+	height: 600px
+}
 @media (max-width: 768px) {
 	.div-hero section {
 		padding-left: 0px;
