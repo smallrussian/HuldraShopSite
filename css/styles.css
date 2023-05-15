@@ -1,42 +1,155 @@
 /*UTILITY*/
 
-.floatleft { float: left; }
-.floatright { float: right; }
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
 
-body { margin: 0; font-family: Verdana, sans-serif; color: rgb(100,100,100); background-color: #f8f9fa; }
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  color: rgb(100, 100, 100);
+  background-color: #f8f9fa;
+}
 
 /*STRUCTURE*/
 
-.hus-header { position: fixed; top: 0; width: 100%; padding: 20px 0; z-index: 5; background-color: #FFF; transition-delay: 0s; transition-duration: 0.4s; transition-property: all; transition-timing-function: ease; }
-.inner-header {display: flex; justify-content: space-between; align-items: center; padding: 0 20px;}
-.logo {text-decoration: none; color: black; font-size: 24px; display: flex; align-items: center;}
-.logo img { margin-right: 10px; }
-nav ul { display: flex; align-items: center; list-style: none; flex-wrap: wrap; }
-nav li { margin: 0 10px; }
-nav a { text-decoration: none; color: #000; font-weight: bold; }
-nav a:hover { color: #777; }
+.hus-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 5;
+  background-color: #fff;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-right: 10px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #777;
+}
 
-.div-hero { width: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; background: #dee2e6; padding: 50px 0; margin-bottom: 20px; }
-.heroimage { max-width: 100%; }
-.herocontent { max-width: 400px; margin-left: 20px; padding-top: 40px; }
-.herocontent h1 { font-size: 2.5em; font-weight: bold; margin-bottom: 20px; }
-.herocontent p { margin-bottom: 20px; font-size: 1.2em; }
-.herocontent .btn { font-weight: bold; }
+.div-hero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #dee2e6;
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+.heroimage {
+  max-width: 100%;
+}
+.herocontent {
+  max-width: 400px;
+  margin-left: 20px;
+  padding-top: 40px;
+}
+.herocontent h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.herocontent p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.herocontent .btn {
+  font-weight: bold;
+}
 
-#missiondiv { background-color: #f8f9fa; padding: 40px 0; }
-.mission { max-width: 800px; margin: 0 auto; text-align: center; }
-.mission h2 { font-size: 2em; font-weight: bold; margin-bottom: 20px; }
-.mission h4 { font-size: 1.6em; font-weight: normal; margin-bottom: 40px;}
-.mission p {font-size: 1.4em; line-height: 1.4;}
+#missiondiv {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+.mission {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.mission h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.mission h4 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.mission p {
+  font-size: 1.4em;
+  line-height: 1.4;
+}
 
-.aboutus { background-color: #dee2e6; padding: 40px 0; }
-.aboutCol { background-color: #c8c8c8; height: 200px; flex-grow: 1; border-radius: 5px; }
+.aboutus {
+  background-color: #dee2e6;
+  height: fit-content;
+  padding: 40px 0;
+}
+.aboutCol {
+  height: fit-content;
+  flex-grow: 1;
+  border-radius: 5px;
+}
 
-footer { width: 100%; height: 30px; background: rgb(200,200,200); padding: 5px 0; text-align: center; font-size: 0.8em; }
+footer {
+  width: 100%;
+  height: 30px;
+  background: rgb(200, 200, 200);
+  padding: 5px 0;
+  text-align: center;
+  font-size: 0.8em;
+}
 
 @media (max-width: 768px) {
-    .div-hero { flex-direction: column-reverse; padding: 20px 0; }
-    .heroimage { margin-bottom: 20px; }
-    .herocontent { margin-left: 0; padding-top: 0; }
-    .logo { font-size: 18px; }
+  .div-hero {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+  .heroimage {
+    margin-bottom: 20px;
+  }
+  .herocontent {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .logo {
+    font-size: 18px;
+  }
 }
