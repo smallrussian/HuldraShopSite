@@ -30,7 +30,7 @@ nav a:hover { color: #777; }
 .mission p {font-size: 1.4em; line-height: 1.4;}
 
 .aboutus { background-color: #dee2e6; padding: 40px 0; }
-.aboutCol { background-color: #c8c8c8; height: 200px; margin: 0 20px; flex-grow: 1; border-radius: 5px; }
+.aboutCol { background-color: #c8c8c8; height: 200px; flex-grow: 1; border-radius: 5px; }
 
 footer { width: 100%; height: 30px; background: rgb(200,200,200); padding: 5px 0; text-align: center; font-size: 0.8em; }
 
